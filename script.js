@@ -8,10 +8,10 @@ async function getPosts(route) {
   const bodyElement = document.querySelector("body");
 
   // Affichage
+  bodyElement.innerHTML = "";
+
   const newH2 = document.createElement("h2");
   const newP = document.createElement("p");
-
-  bodyElement.innerHTML = "";
 
   newH2.textContent = `${response.title}`;
   newP.textContent = `${response.body}`;
