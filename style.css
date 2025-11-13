@@ -7,6 +7,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   background: #ff000026;
+  font-family: cursive;
 }
 
 button {
@@ -15,7 +16,6 @@ button {
   background: #e44f4f8f;
   border-radius: 8px;
   border: solid 3px #f4101040;
-  font-family: cursive;
   font-size: 1.5vw;
   cursor: pointer;
   box-shadow: 2px 0px 16px 2px #0000006b;
@@ -25,4 +25,14 @@ button:hover {
   width: 31vw;
   height: 6vh;
   font-size: 1.6vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+p {
+  font-size: 1.8vw;
+  width: 65vw;
+  text-align: justify;
 }
